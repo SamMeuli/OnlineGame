@@ -1,0 +1,20 @@
+{%load static%}
+<html>
+
+<head>
+
+  <style>
+    .sprite{
+  position:absolute;
+  top: {{sprite_posy}}vh;
+  left:{{sprite_posx}}vw;
+  color: #000000
+}
+  </style>
+</head>
+
+<div class="sprite">
+  <p><a href=""> {%include './icons/circle.svg' %} </a></p>
+</div>
+<p> {{sprite_posy}} </p>
+</html>
